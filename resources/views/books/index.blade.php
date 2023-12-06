@@ -10,6 +10,8 @@
                 <div class="p-6 text-black dark:text-black">
                     <x-primary-button tag="a" href="{{route('book.create')}}">Tambah Data Buku</x-primary-button>
                     <x-primary-button tag="a" href="{{ route('book.print')}}" target='blank'>Cetak Buku</x-primary-button>
+                    <x-primary-button tag="a" href="{{ route('book.export')}}" target='blank'>Export Excel</x-primary-button>
+                    <x-primary-button tag="a" href="{{ route('book.import')}}" target='blank'>Import Excel</x-primary-button>
                     <br /><br />
                     <x-table>
                         <x-slot name="header">
